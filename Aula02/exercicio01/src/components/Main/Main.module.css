@@ -1,3 +1,8 @@
 .main{
-    text-align: center;
+    display: flex;
+    padding: 2rem;
+    margin: 3rem auto;
+    width: 80vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }

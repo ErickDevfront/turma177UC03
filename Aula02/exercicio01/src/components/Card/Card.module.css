@@ -1,3 +1,32 @@
-.container{
-    text-align:center;
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    background-color: rgb(179, 179, 183);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px gray;
+    padding: 1rem;
+ 
 }
+
+.container h1 {
+    color: chocolate;
+
+}
+
+.container p {
+    text-align: justify;
+}
+.container p::first-letter {
+ font-size: 2rem;
+}
+
+.container img {
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.container:hover{
+      transform: scale(1.1); /* Zoom in by 20% */
+    }

@@ -8,10 +8,10 @@ function Main() {
             <main className={styles.main}>
                 <Card />
                 <Card />
+                <Card />
 
             </main>
         </>
     )
 }
-
 export default Main;

@@ -5,7 +5,7 @@ function Footer(){
     return(
         <>
             <footer className={styles.footer}> 
-                <p>Footer</p>
+                <p>Meu primeiro site React. Todos os direitos reservados {new Date().getFullYear()} &copy;</p>
             </footer>
         </>
     )
