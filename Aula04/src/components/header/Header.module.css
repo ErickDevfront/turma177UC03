@@ -1,3 +1,8 @@
 .header{
-    
+    background-color: black;
+    color: azure;
+    text-align: center;
+    height: 4rem;
+    padding: 1rem;
+    width: 100vw;
 }
