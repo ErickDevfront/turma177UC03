@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+
+.container {
+    background-color: blueviolet;
+    text-align: center;
+    font-family: "Edu NSW ACT Cursive", cursive;
+    padding: 1.25rem;
+    border: 0.2rem solid #333;
+    border-radius: 0.5rem;
+    margin: 1.5rem auto;
+    box-shadow: 0.3rem 0.1rem 0.1rem #333;
+    max-width: 20rem;
+}
+
+.container h2 {
+    color: aliceblue;
+}
+
+.container button {
+    font-family: "Edu NSW ACT Cursive", cursive;
+    margin: 0.5rem;
+    padding: 0.2rem 0.8rem;
+    border: none;
+    background-color: chocolate;
+    color: white;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+}
+
+.container button:hover {
+    background-color: rgb(37, 35, 35);
+}
