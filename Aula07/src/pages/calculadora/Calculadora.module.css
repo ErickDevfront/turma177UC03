@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #9e7a7a;
+    background: linear-gradient(90deg, rgba(158, 122, 122, 1) 0%, rgba(87, 199, 133, 1) 91%, rgba(237, 221, 83, 1) 100%);
+    color: black;
+    max-width: 50rem;
+    margin: 10rem auto;
+    border-radius: 2rem;
+    box-shadow: #333 0.2rem 0.2rem 0.1rem;
+    padding: 1rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resultado {
+    font-size: 2rem;
+    color: azure;
+    margin-right:0 ;
+
+
+}
