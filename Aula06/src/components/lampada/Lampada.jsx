@@ -1,6 +1,7 @@
 import { useState } from "react";
 import on from "../../assets/on.png";
 import off from "../../assets/off.png";
+import styles from "./Lampada.module.css"
 
 function Lampada() {
     const [lampada, setLampada] = useState(false);
@@ -9,7 +10,7 @@ function Lampada() {
     }
     return (
         <>
-            <div>
+            <div className={styles.container}>
                 {/* <h2>Lâmpada {lampada ? "Ligada 💡": "Desligada 💤"}</h2> */}
                 {
                     lampada ?
