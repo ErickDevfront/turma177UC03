@@ -29,7 +29,6 @@ function Calculadora() {
                 <h1>Calculadora do JS</h1>
                 <div className={styles.visor}>
                     <p className={styles.resultado}>{resultado}</p>
-
                 </div>
                 <div className={styles.buttons}>
                     <Button label="C" onClick={() => limpar("c")} />
