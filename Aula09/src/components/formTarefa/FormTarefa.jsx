@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import styles from  "./FormTarefa.module.css"
 
 function FormTarefa({ adicionarTarefa, tarefaEdicao, atualizarTarefa }) {
     const [texto, setTexto] = useState("");
@@ -24,14 +25,15 @@ function FormTarefa({ adicionarTarefa, tarefaEdicao, atualizarTarefa }) {
     }
     return (
         <>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className={styles.formContainer}>
                 <input
                     type="text"
                     placeholder="Digite a tarefa"
                     value={texto}
                     onChange={(e) => setTexto(e.target.value)}
+                    className={styles.input}
                 />
-                <button type="submit">
+                <button type="submit" className={styles.button}>
                     {tarefaEdicao ?  "Atualizar Tarefa" : "Cadastrar"}
                 </button>
 
