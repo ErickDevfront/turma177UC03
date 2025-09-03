@@ -1,0 +1,13 @@
+.lista {
+  list-style: none;
+  padding: 0;
+  margin: 1.25rem auto; 
+  max-width: 37.5rem;}
+
+.vazio {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  margin-top: 1.25rem;
+  font-size: 1rem; 
+}
