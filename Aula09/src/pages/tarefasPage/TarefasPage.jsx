@@ -1,6 +1,7 @@
 import { useState } from "react";
 import FormTarefa from "../../components/formTarefa/FormTarefa";
 import ListaTarefas from "../../components/listaTarefas/ListaTarefas";
+import styles from "./TarefasPage.module.css";
 
 function TarefasPage(){
     const[tarefas, setTarefas] = useState([]);
@@ -23,7 +24,7 @@ function TarefasPage(){
     }
     return (
         <>
-            <div>
+            <div className={styles.container}>
                 <FormTarefa
                     adicionarTarefa={adicionarTarefa}
                     tarefaEdicao={tarefaEdicao}

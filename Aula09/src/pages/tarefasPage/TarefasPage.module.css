@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(178, 87, 199, 1) 50%, rgba(201, 140, 131, 1) 100%);
+    width: 70%;
+    height: 50%;
+    padding: 5rem;
+    margin: 2rem auto;
+    border-radius: 2rem;
+    box-shadow: #acb3b5 0.1rem 1rem 0.3rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
