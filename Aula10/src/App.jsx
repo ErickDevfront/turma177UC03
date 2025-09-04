@@ -1,10 +1,11 @@
 import React from "react";
 import Catalago from "./pages/catalogo/Catalogo";
 function App() {
-    <>
-        <Catalago />
-    
-    </>
+    return (
+        <>
+            <Catalago />
+        </>
+    )
 }
 
 export default App

@@ -34,7 +34,7 @@ function FormFilme({adicionarFilme}){
                     value={imagem}
                     onChange={(e) => setImagem(e.target.value)}
                 />
-                 <label>Imagem:</label>
+                 <label>Descrição:</label>
                 <input
                     type="text"
                     placeholder="Digite a descrição do filme"
